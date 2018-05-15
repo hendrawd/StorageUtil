@@ -1,4 +1,7 @@
 # StorageUtil
+
+[![](https://jitpack.io/v/hendrawd/StorageUtil.svg)](https://jitpack.io/#hendrawd/StorageUtil)
+
 Easily get all available external storage paths in an Android device
 
 ## How to
@@ -22,3 +25,5 @@ dependencies {
  String[] externalStoragePaths = StorageUtil.getStorageDirectories(context);
  // do whatever you want with the externalStoragePaths
  ```
+
+[Click here](https://jitpack.io/#hendrawd/StorageUtil/) for the other build systems installation guide like **maven**, **sbt** and **leinigen**
