@@ -121,7 +121,7 @@ public class StorageUtil {
             // External storage paths should have storageId in the last segment
             // i.e: "/storage/emulated/storageId" where storageId is 0, 1, 2, ...
             final String path = Environment.getExternalStorageDirectory().getAbsolutePath();
-            final String[] folders = File.separator.split(path);
+            final String[] folders = path.split(File.separator);
             final String lastSegment = folders[folders.length - 1];
             if (!TextUtils.isEmpty(lastSegment) && TextUtils.isDigitsOnly(lastSegment)) {
                 rawStorageId = lastSegment;
