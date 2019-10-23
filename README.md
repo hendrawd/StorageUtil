@@ -29,10 +29,10 @@ allprojects {
     }
 }
 ```
- - Add the dependency
+ - Add the dependency (see the latest version from the jitpack badge or [Release](https://github.com/hendrawd/StorageUtil/releases))
 ```gradle
 dependencies {
-    implementation 'com.github.hendrawd:StorageUtil:1.0.0'
+    implementation 'com.github.hendrawd:StorageUtil:x.x.x'
 }
 ```
  - Get the external storage paths
