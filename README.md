@@ -5,6 +5,9 @@
 Easily get all available external storage paths in an Android device. 
 
 ## Important Note
+
+If your minimal SDK version is 19, consider using [Storage Access Framework](https://developer.android.com/guide/topics/providers/document-provider) instead
+
 Don't be confused with external storage term here. The Internal and External Storage terminology according to Google/official Android docs is quite different from what we think.
 
 According to official Android docs:
